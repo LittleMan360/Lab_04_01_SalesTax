@@ -8,7 +8,7 @@ public class SalesTax {
 
         salesTax = purchasePrice * tax;
 
-        System.out.printf("The price is " + purchasePrice + " and your sales tax is %,.2f", + salesTax );
-
+        System.out.printf("The price is $%,.2f", + purchasePrice);
+        System.out.printf(" and your sales tax is $%,.2f", + salesTax);
     }
 }
